@@ -2,12 +2,12 @@
 # ───────────────────────────────────────────────────
 # the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
-id: ihe.domain.profile
-canonical: https://profiles.ihe.net/Domain/Profile
+id: ihe.test.asbestos
+canonical: https://profiles.ihe.net/Test/Asbestos
 version: 0.1.0
-name: IHE_Domain_Profile
-title: "spelled out name of the IHE Profile"
-description: put the short description of the profile here. it should explain what problem is being solved
+name: IHE_Test_Asbestos
+title: "Asbestos uses of TestScript"
+description: The Asbestos test tool uses TestScript. This IG contains the profiles, extensions, valuesets, and other artifacts.
 releaseLabel: ci-build
 #releaseLabel: Trial-Implementation
 #date: 2022-01-02
